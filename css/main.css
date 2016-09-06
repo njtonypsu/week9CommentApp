@@ -1,0 +1,23 @@
+body {
+	
+}
+
+form > input {
+	margin: 10px auto;
+}
+
+form > button {
+	background-color: blue;
+	padding: 5pt 10pt;
+	border-radius: 5pt;
+	color: #fff;
+}
+
+/*form > input, textarea {
+	border-color: blue;
+}*/
+
+ul#listComment {
+	list-style: none;
+	margin-top: 30px;
+}

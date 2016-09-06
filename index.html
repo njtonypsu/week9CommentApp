@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="col-lg-4 col-lg-offset-4">
+			<h2>Please Leave Your Comments</h2>
+			<form>
+				<input placeholder="What is your name?" id="name">
+				<br>
+				<textarea rows="10" cols="40" placeholder="Comment" id="comment"></textarea>
+				<br>
+				<button type="button" onclick="addComment()">Submit</button>
+			</form>
+			<ul id="listComment"></ul>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
